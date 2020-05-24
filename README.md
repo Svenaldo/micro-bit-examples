@@ -1,1 +1,1 @@
-# micro-bit-examples
+# micro:bit-examples
