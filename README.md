@@ -1,6 +1,7 @@
 # micro:bit-examples
 
 ## 1. Log micro:bit compass to serial port via USB and trace/track position on screen with Turtle graphic
+![Serial compass logging and tracing with Python Turtle graphics](https://raw.githubusercontent.com/Svenaldo/micro-bit-examples/master/serial_compass_python_logging_tracing.png "Serial compass logging and tracing with Python Turtle graphics")
 
 ### Run on micro:bit to write compass heading to serial port to USB connection
 ```javascript
@@ -32,6 +33,5 @@ ser = serial.Serial('/dev/ttyACM3', 115200, timeout=1)
 # read serial input
 ser.readline()
 ```
-
 
 ## 2.
