@@ -24,7 +24,7 @@ sudo screen /dev/ttyACM3 115200
 ```
 end and kill screen session with `strg+a k`
 
-#### Logging compass heading and display tracing/tracking with Turtle graphics
+#### Run compass heading logger and display tracing/tracking with Turtle graphics
 ```python
 # Listen on serial device, eg. ttyACM3
 ser = serial.Serial('/dev/ttyACM3', 115200, timeout=1)
